@@ -21,7 +21,7 @@ switches:
    # states: [ 半角, 全角 ]
   - name: simplification
    # states: [ 简, 繁 ]
-    reset: 0
+    reset: 1
   - name: ascii_punct
    # states: [ 。，, ．， ]
     reset: 0
@@ -63,7 +63,7 @@ speller:
   initials: 'abcdefghijklmnopqrstuvwxyz;'
   finals: '/'
   #delimiter: " '"
-  max_code_length: 4
+  max_code_length: 20
   auto_select: true   #顶字上屏
   auto_select_pattern: ^;.$|^\w{4}$
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
@@ -86,7 +86,7 @@ history:
 simplification:
   opencc_config: s2tw.json
   option_name: simplification
-  tips: all #简繁对照
+  # tips: all #简繁对照
 
 custom_phraseVD:
   dictionary: ""
@@ -147,7 +147,7 @@ recognizer:
     expression: "^=.*$"
 
 menu:
-  page_size: 5 #候选项数
+  page_size: 9 #候选项数
   
 style:
   horizontal: true #竖排为false
