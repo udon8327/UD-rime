@@ -427,5 +427,376 @@
 自取其辱	zqqr
 在情在理	zqzl
 
-ラブライブ！サンシャイン!!	llss
-さ	saj
+
+
+# 常用短句
+
+# 自定義短句
+アマゾン	amaz
+アニメ	anim
+Aqours	aqa
+bohan.huang@coolbe.com.tw	boha
+http://www.bilibili.com/	bili
+台北市中正區金華街30-5號2樓	addr
+酷必資訊	cool
+台北市中山區復興北路168號6樓	cool
+キャラクター	char
+https://zt.coinmill.com/JPY_TWD.html	coin
+http://share.dmhy.org/	dmhy
+http://exhentai.org/	exhe
+354482729 udon8327	eplu
+https://www.istockphoto.com/hk/en	free
+https://www.flaticon.com/home	free
+https://www.freepik.com	free
+https://fakeimg.pl/500x500/	fake
+https://picsum.photos/500	fake
+フィギュア	figu
+https://www.google.com.tw/	goog
+https://trends.google.com.tw/trends/explore?q=%2Fm%2F0n4bxd2,%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81,%E3%83%87%E3%83%AC%E3%82%B9%E3%83%86,%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC,%E3%82%A2%E3%82%A4%E3%83%9E%E3%82%B9	goog
+グラブル	gbf
+ゲーム	game
+http://game.granbluefantasy.jp/	gbf
+https://www.colorzilla.com/gradient-editor/	grad
+/3XH0OGQ	zdju
+ひぐらしのなく頃に	higu
+アイドルマスター	imas
+https://imgur.com/DIC7dRT.jpg	img
+https://imgur.com/zoDLCHc.jpg	img
+http://www.ascii2d.net/	img
+https://ip.xxoo.net/?L=tw	myip
+https://www.yougetsignal.com/tools/open-ports/	myip
+http://game-i.daa.jp/?AppStore%E6%9C%88%E9%96%93%E3%82%A2%E3%83%97%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%82%B9%E4%BA%88%E6%B8%AC	ios
+http://applion.jp/iphone/rank/jp/gross/	ios
+katpd27@gmail.com	katp
+katpd8327@gmail.com	katp
+kashiwa27@yahoo.com.tw	kash
+キャラクター	kyar
+ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!	kita
+http://web.komica.org/	komi
+http://pink.komica.org/index2.htm	komi
+https://komica-cache.appspot.com	komi
+ラブライブ！スーパースター!!	lls	2
+Love Live! Superstar!!	lls	1
+ラブライブ！サンシャイン!!	llss	2
+LoveLive! Sunshine!!	llss	1
+ラブライブ！	llll	2
+LoveLive!	llll	1
+スクスタ	llas
+ライブ	live
+https://line.me/zh-hant/	line
+嘸蝦米	liu
+https://imgur.com/JjLaY5N.jpg	liu
+モンハン	monh
+モンスターハンター	monh
+モンハンライズ	mhr
+ミリシタ	mltd
+虹ヶ咲学園	niji
+虹ヶ咲学園スクールアイドル同好会	niji
+http://QuickConnect.to/udon8327	nas
+http://udon8327.quickconnect.to	nas
+https://nyaa.si/	nyaa
+ニンテンドースイッチ	ns
+Nintendo Switch	ns
+黃柏翰	name
+ポケモン	poke
+https://iamchucky.github.io/PttChrome/index.html?site=ptt.cc	ptt
+https://imgur.com/m7pMZE5.jpg	pbyb
+https://postwoman.io	post
+ランキング	rank
+166-0002 東京都杉並区高円寺北 ３－１９－１２ ジョイフル高円寺弐番館３２２室 080-4732-4185	ruru
+ライスシャワー	rice
+スクフェス	sif
+ラブライブ！スクールアイドルフェスティバル	sif
+http://game-i.daa.jp/	seru
+スプラトゥーン	spla
+世界樹の迷宮	seka
+声優	seiy
+https://snippet-generator.app/	snip
+少女歌劇	syou
+少女☆歌劇レヴュー・スタァライト	syou
+touhou8327@gmail.com	touh
+https://translate.google.com/translate?hl=zh-TW&sl=en&tl=zh-TW&u=	tran
+https://tinypng.com	tiny
+udon8327@gmail.com	udon
+売上	uria
+ウマ娘	uma
+ウマ娘 プリティーダービー	uma
+うたわれるもの	utaw
+うみねこのなく頃に	umin
+4147 6350 1269 2801 07/25	visa
+4987 1345 0522 8607 07/23	visa
+4147 6350 1269 2801 07/25 /3XH0OGQ	visa
+https://udon8327.synology.me/	web
+ゼノブレイド	xeno
+http://react.xhup.club/search	xnhe
+https://imgur.com/uIDQZe9.jpg	xnhe
+https://www.flypy.com/index.html	xnhe
+http://xhrm.flypy.com/1960600	xnhe
+よろしくお願いします	yoro
+https://www.youtube.com/	yout
+円	yen
+薩爾達	zeld
+ゼルダの伝説	zeld
+ジャケット	zyak
+
+# 程式開發
+https://i.imgur.com/ZGksgSw.jpg	arra
+https://www.base64-image.de/	base
+ssh -N -L 10.10.50.64:33062:127.0.0.1:3306 root@10.30.70.160	bio
+https://v3.bootcss.com/css/	bss
+https://bootstrap.hexschool.com/docs/4.2/layout/overview/	bsf
+https://www.colorzilla.com/gradient-editor/	css
+https://codepen.io/	code
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css	cdfa
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css	cdfa
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css	cdbs
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js	cdbs
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css	cdbs
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js	cdbs
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js	cdjq
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js	cdjq
+https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js	cdvu
+https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.common.dev.js	cdvu
+https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.5/vue.global.prod.js	cdvu
+https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.5/vue.global.js	cdvu
+https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.1.3/vue-router.min.js	cdvr
+https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js	cdsa
+https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css	cdan
+https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css	cdan
+https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css	cdno
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css	cdbr
+https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js	cdlo
+https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js	cdax
+https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.14.1/theme-chalk/index.css	cdel
+https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.14.1/index.js	cdel
+https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.14.1/locale/zh-TW.min.js	cdel
+https://code.createjs.com/1.0.0/createjs.min.js	cdcr
+cd ~/Project/CoolBe/Git/laradock	dock
+ssh -N -L 10.10.50.64:33061:10.10.80.5:3306 cb_bohanhuang@coolbe-demo	demo
+https://element.eleme.io/2.12/#/zh-CN	elem
+https://fontawesome.com/icons?d=gallery&m=free	faw
+https://fontawesome.com/v4.7.0/icons/	fas
+javascript	java
+https://jsoneditoronline.org/	json
+https://tw.piliapp.com/json/formatter/	json
+https://jsonformatter.curiousconcept.com/#	json
+http://www.richyli.com/tool/loremipsum/	lore
+https://www.npmjs.com/	npm
+git commit --amend --no-edit	noed
+<h1>H1 測試訊息</h1><h2>H2 測試訊息</h2><h3>H3 測試訊息</h3><p>p 測試訊息</p><span>span 測試訊息</span>	nlbr
+cd volume1/web/Node/	node
+https://html2pug.now.sh/	pug
+https://pughtml.com/	pug
+npm install pug pug-plain-loader --saveprot	https://i.imgur.com/4aeHM3I.jpg	pug
+https://www.regextester.com	reg
+http://css2sass.herokuapp.com/	sass
+https://sweetalert2.github.io	swee
+ssh admin@udon8327.synology.me -p 25252	ssh
+https://snippet-generator.app/	vsco
+https://github.com/udon8327/Vue-cli-template.git	vuec
+https://cn.vuejs.org/v2/guide/index.html	vuee
+https://v3.cn.vuejs.org/guide/introduction.html	vues
+
+# 注音符號
+ㄅ	vyb
+ㄆ	vyp
+ㄇ	vym
+ㄈ	vyf
+ㄉ	vyd
+ㄊ	vyt
+ㄋ	vyn
+ㄌ	vyl
+ㄍ	vyg
+ㄎ	vyk
+ㄏ	vyh
+ㄐ	vyj
+ㄑ	vyq
+ㄒ	vyx
+ㄓ	vyv
+ㄔ	vyi
+ㄕ	vyu
+ㄖ	vyr
+ㄗ	vyz
+ㄘ	vyc
+ㄙ	vys
+ㄧ	vyy
+ㄨ	vyw
+ㄩ	vyu
+ㄚ	vya
+ㄛ	vyo
+ㄜ	vye
+ㄝ	vye
+ㄞ	vya
+ㄟ	vyw
+ㄠ	vyc
+ㄡ	vyz
+ㄢ	vyj
+ㄣ	vyf
+ㄤ	vyh
+ㄥ	vyg
+ㄦ	vye
+
+# 日文平假名
+あ	a	2
+い	i	2
+う	u	2
+え	e	2
+お	o	2
+か	ka	2
+き	ki	2
+く	ku	2
+け	ke	2
+こ	ko	2
+さ	sa	2
+し	si	2
+す	su	2
+せ	se	2
+そ	so	2
+た	ta	2
+ち	ti	2
+つ	tu	2
+て	te	2
+と	to	2
+な	na	2
+に	ni	2
+ぬ	nu	2
+ね	ne	2
+の	no	2
+は	ha	2
+ひ	hi	2
+ふ	hu	2
+へ	he	2
+ほ	ho	2
+ま	ma	2
+み	mi	2
+む	mu	2
+め	me	2
+も	mo	2
+や	ya	2
+ゆ	yu	2
+よ	yo	2
+ら	ra	2
+り	ri	2
+る	ru	2
+れ	re	2
+ろ	ro	2
+わ	wa	2
+を	wo	2
+が	ga	2
+ぎ	gi	2
+ぐ	gu	2
+げ	ge	2
+ご	go	2
+ざ	za	2
+じ	zi	2
+ず	zu	2
+ぜ	ze	2
+ぞ	zo	2
+だ	da	2
+ぢ	di	2
+づ	du	2
+で	de	2
+ど	do	2
+ば	ba	2
+び	bi	2
+ぶ	bu	2
+べ	be	2
+ぼ	bo	2
+ぱ	pa	2
+ぴ	pi	2
+ぷ	pu	2
+ぺ	pe	2
+ぽ	po	2
+ん	n	2
+
+# 日文片假名
+ア	a	1
+イ	i	1
+ウ	u	1
+エ	e	1
+オ	o	1
+カ	ka	1
+キ	ki	1
+ク	ku	1
+ケ	ke	1
+コ	ko	1
+サ	sa	1
+シ	si	1
+ス	su	1
+セ	se	1
+ソ	so	1
+タ	ta	1
+チ	ti	1
+ツ	tu	1
+テ	te	1
+ト	to	1
+ナ	na	1
+ニ	ni	1
+ヌ	nu	1
+ネ	ne	1
+ノ	no	1
+ハ	ha	1
+ヒ	hi	1
+フ	hu	1
+ヘ	he	1
+ホ	ho	1
+マ	ma	1
+ミ	mi	1
+ム	mu	1
+メ	me	1
+モ	mo	1
+ヤ	ya	1
+ユ	yu	1
+ヨ	yo	1
+ラ	ra	1
+リ	ri	1
+ル	ru	1
+レ	re	1
+ロ	ro	1
+ワ	wa	1
+ヲ	wo	1
+ガ	ga	1
+ギ	gi	1
+グ	gu	1
+ゲ	ge	1
+ゴ	go	1
+ザ	za	1
+ジ	zi	1
+ズ	zu	1
+ゼ	ze	1
+ゾ	zo	1
+ダ	da	1
+ダ	di	1
+ヅ	du	1
+デ	de	1
+ド	do	1
+バ	ba	1
+ビ	bi	1
+ブ	bu	1
+ベ	be	1
+ボ	bo	1
+パ	pa	1
+ピ	pi	1
+プ	pu	1
+ペ	pe	1
+ポ	po	1
+ン	n	1
+
+ー	ee
+、	vv
+
+# 特殊符號
+℃	foc
+→	fyz
+←	fzo
+↑	fuh
+↓	fxx
+☆	fxk
+★	fxk
+♡	fxb
+♥	fxb
+♂	fnj
+♀	fnv
+
+# 例外
+μ's	muse

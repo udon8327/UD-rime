@@ -14,6 +14,12 @@ patch:
   "punctuator":
     full_shape:
     half_shape:
+      '-' : '-'
+      '_' : '_'
+      '+' : '+'
+      '=' : '='
+      ':' : ':'
+      ';' : ';'
 
 #
 # 可用的按键有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R
