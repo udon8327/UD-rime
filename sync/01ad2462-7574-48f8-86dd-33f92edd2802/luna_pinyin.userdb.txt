@@ -2,6 +2,9 @@
 #@/db_name	luna_pinyin
 #@/db_type	userdb
 #@/rime_version	1.7.3
-#@/tick	1
+#@/tick	7
 #@/user_id	01ad2462-7574-48f8-86dd-33f92edd2802
-fa 	發	c=1 d=1 t=1
+a 	啊	c=2 d=1.98012 t=7
+fa 	發	c=1 d=1 t=7
+hao 	好	c=3 d=2.94556 t=7
+wu fa 	無法	c=1 d=1 t=7

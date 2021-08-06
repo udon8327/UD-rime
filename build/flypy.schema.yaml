@@ -2,9 +2,9 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     default: 1613228859
-    default.custom: 1628216864
+    default.custom: 1628235200
     flypy.custom: 0
-    flypy.schema: 1628169283
+    flypy.schema: 1628234737
     key_bindings: 1613228859
     key_bindings.custom: 0
     punctuation: 1613228859
@@ -32,8 +32,8 @@ custom_phraseYH:
   user_dict: flypy_user
 engine:
   filters:
-    - simplifier
     - "simplifier@simplification"
+    - simplifier
     - uniquifier
   processors:
     - ascii_composer
@@ -116,7 +116,7 @@ schema:
   schema_id: flypy
   version: 10.8.0
 simplification:
-  opencc_config: s2tw.json
+  opencc_config: s2twp.json
   option_name: simplification
 simplifier:
   opencc_config: t2tw.json

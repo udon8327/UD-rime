@@ -18,8 +18,8 @@
 # 置顶用户词库，20行开始添加，编码格式见上。切换方案或部署后生效
 # no comment
 
-為	ww
-這裡	veli
-那裡	nali
-哪裡	nal
-裡	li
+戰	vjk
+程式	igui
+台	td
+台灣	tw
+妳	ni

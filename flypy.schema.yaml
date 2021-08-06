@@ -56,8 +56,8 @@ engine:
     - history_translator@history
     - lua_translator@calculator_translator
   filters:
-    - simplifier
     - simplifier@simplification
+    - simplifier
     - uniquifier
 
 speller:
@@ -85,7 +85,7 @@ history:
   initial_quality: 1 #首选
 
 simplification:
-  opencc_config: s2tw.json
+  opencc_config: s2twp.json
   option_name: simplification
   # tips: all #简繁对照
 

@@ -5,8 +5,9 @@ customization:
 patch:
   schema_list:
     - schema: flypy # 小鶴音形
-    - schema: luna_pinyin # 朙月拼音
-    - schema: bopomofo_tw # 注音·臺灣正體
+    # - schema: double_pinyin_flypy # 小鶴雙拼
+    # - schema: luna_pinyin # 朙月拼音
+    # - schema: bopomofo_tw # 注音·臺灣正體
   switcher:
     caption: 〔方案選單〕
     hotkeys:
