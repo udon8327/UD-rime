@@ -5,6 +5,21 @@ customization:
 patch:
   schema_list:
     - schema: flypy # 添加小鹤音形
+  "switcher": 
+    caption: 〔方案選單〕
+    hotkeys:
+      - Control+Shift+grave
+  "menu": 
+    page_size: 9
+  "punctuator":
+    full_shape:
+    half_shape:
+      '-' : '-'
+      '_' : '_'
+      '+' : '+'
+      '=' : '='
+      ':' : ':'
+      ';' : ';'
 
 #
 # 可用的按键有 Caps_Lock, Shift_L, Shift_R, Control_L, control_R

@@ -27,13 +27,12 @@ patch:
     candidate_back_color: 0xffffff                    # 次选背景色
     comment_text_color: 0x555555                      # 次选提示字母色
     horizontal: true                        # 候选窗横向显示
-    font_point: 16                          # 候选窗文字字号
+    font_point: 18                          # 候选窗文字字号
     label_font_point: 14                    # 候选窗编号字号
     inline_preedit: true                    # 开启嵌入编码
     name: "metro"
     text_color: 0x333333                    # 编码行文字颜色，24位色值，16进制，BGR顺序
   "style/line_spacing": 12                  # 候选词的行间距
-  "style/color_scheme": metro
+  "style/color_scheme": mojave_dark
   "style/display_tray_icon": false
   "style/text_orientation": horizontal  # horizontal | vertical
-  
