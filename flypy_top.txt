@@ -19,10 +19,8 @@
 # no comment
 
 戰	vjk
-程式	igui
-台	td
-台灣	tw
 妳	ni
+程式	igui
 匯出	hviu
 推播	tvbo
 梗圖	ggtu

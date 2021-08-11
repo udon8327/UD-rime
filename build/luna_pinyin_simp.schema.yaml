@@ -1,21 +1,21 @@
 __build_info:
   rime_version: 1.7.3
   timestamps:
-    default: 1613228859
-    default.custom: 0
+    default: 1628647658
+    default.custom: 1574989441
     grammar: 1613228859
     grammar.custom: 0
-    key_bindings: 1613228859
+    key_bindings: 1628647658
     key_bindings.custom: 0
     luna_pinyin.custom: 0
-    luna_pinyin.schema: 1613228859
+    luna_pinyin.schema: 1628647657
     luna_pinyin_simp.custom: 0
-    luna_pinyin_simp.schema: 1613228859
-    pinyin: 1613228859
+    luna_pinyin_simp.schema: 1628647657
+    pinyin: 1628647657
     pinyin.custom: 0
-    punctuation: 1613228859
+    punctuation: 1628647658
     punctuation.custom: 0
-    symbols: 1613228859
+    symbols: 1628647658
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -52,6 +52,13 @@ grammar:
   language: "zh-hant-t-essay-bgw"
 key_binder:
   bindings:
+    - {accept: space, send: Escape, when: composing}
+    - {accept: space, send: space, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: "Control+period", toggle: simplification, when: always}
+    - {accept: "Control+apostrophe", toggle: liu_w2c, when: always}
+    - {accept: "Control+slash", toggle: extended_charset, when: always}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+p", send: Up, when: composing}
     - {accept: "Control+n", send: Down, when: composing}
     - {accept: "Control+b", send: Left, when: composing}
@@ -63,31 +70,17 @@ key_binder:
     - {accept: "Control+h", send: BackSpace, when: composing}
     - {accept: "Control+g", send: Escape, when: composing}
     - {accept: "Control+bracketleft", send: Escape, when: composing}
-    - {accept: "Control+y", send: Page_Up, when: composing}
     - {accept: "Alt+v", send: Page_Up, when: composing}
     - {accept: "Control+v", send: Page_Down, when: composing}
     - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
     - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
     - {accept: Tab, send: "Shift+Right", when: composing}
-    - {accept: minus, send: Page_Up, when: has_menu}
-    - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}
-    - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-    - {accept: "Control+Shift+exclam", select: .next, when: always}
-    - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
-    - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
     - {accept: "Control+Shift+4", toggle: zh_simp, when: always}
     - {accept: "Control+Shift+dollar", toggle: zh_simp, when: always}
   import_preset: default
 menu:
-  page_size: 5
+  alternative_select_keys: 0123456789
+  page_size: 7
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -230,7 +223,7 @@ punctuator:
     "/c": ["ç", "ć", "č", "ĉ", "ċ", "ᶜ", "ȼ", "ꞓ", "ƈ", "ḉ", "ꞔ", "ɕ", "ᶝ", "ꜿ"]
     "/d": ["ď", "ḋ", "ᵈ", "đ", "ƌ", "ᵭ", "ḑ", "ḓ", "ḏ", "ḍ", "ɖ", "ɗ", "ᶑ", "ᶁ", "ð", "ᶞ", "ꝱ", "ʤ", "ʣ", "ʥ", "ȡ", "ƍ", "ǳ", "ǆ", "ẟ"]
     "/db": ["ȸ"]
-    "/dn": ["❖", "⌘", "⌃", "⌥", "⎇", "⇧", "⇪", "␣", "⇥", "⇤", "↩", "⌅", "⌤", "⌫", "⌦", "⌧", "⎋", "⌨", "◁", "⌀", "⌖", "⌗", "⏏", "↖", "↘", "⇞", "⇟", "⌚", "⏰", "⏱", "⏲", "⏳", "⌛", "⌜", "⌝⌞⌟", "⍑", "⏩", "⏪", "⏫", "⏬", "⏭", "⏮", "⏯"]
+    "/dn": ["❖", "⌘", "⌃", "⌥", "⎇", "⇧", "⇪", "␣", "⇥", "⇤", "↩", "⌅", "⌤", "⌫", "⌦", "⌧", "⎋", "⌨", "◁", "⌀", "⌖", "⌗", "⏏", "↖", "↘", "⇞", "⇟", "⌚", "⏰", "⏱", "⏲", "⏳", "⌛", "⌜", "⌝", "⌞", "⌟", "⍑", "⏩", "⏪", "⏫", "⏬", "⏭", "⏮", "⏯"]
     "/dw": ["Å", "℃", "％", "‰", "‱", "°", "℉", "㏃", "㏆", "㎈", "㏄", "㏅", "㎝", "㎠", "㎤", "㏈", "㎗", "㎙", "㎓", "㎬", "㏉", "㏊", "㏋", "㎐", "㏌", "㎄", "㎅", "㎉", "㎏", "㎑", "㏍", "㎘", "㎞", "㏎", "㎢", "㎦", "㎪", "㏏", "㎸", "㎾", "㏀", "㏐", "㏓", "㎧", "㎨", "㎡", "㎥", "㎃", "㏔", "㎆", "㎎", "㎒", "㏕", "㎖", "㎜", "㎟", "㎣", "㏖", "㎫", "㎳", "㎷", "㎹", "㎽", "㎿", "㏁", "㎁", "㎋", "㎚", "㎱", "㎵", "㎻", "㏘", "㎩", "㎀", "㎊", "㏗", "㏙", "㏚", "㎰", "㎴", "㎺", "㎭", "㎮", "㎯", "㏛", "㏜", "㎔", "㏝", "㎂", "㎌", "㎍", "㎕", "㎛", "㎲", "㎶", "㎼"]
     "/dz": ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
     "/e": ["ē", "é", "ě", "è", "ȅ", "ê", "ĕ", "ȇ", "ė", "ë", "ẽ", "ₑ", "ᵉ", "ɇ", "ꬳ", "ẻ", "ȩ", "ę", "ḙ", "ẹ", "ḛ", "ḗ", "ḕ", "ế", "ề", "ễ", "ể", "ḝ", "ệ", "ᶒ", "ꬴ", "ɘ", "ə", "ɚ", "ᶕ", "ɛ", "ᵋ", "ᶓ", "ɜ", "ᵌ", "ᴈ", "ᶟ", "ɝ", "ᶔ", "ɞ", "ʚ", "ǝ", "ₔ", "ᵊ", "ȝ", "ⱸ"]

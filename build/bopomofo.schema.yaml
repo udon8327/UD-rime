@@ -2,16 +2,16 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     bopomofo.custom: 0
-    bopomofo.schema: 1613228859
-    default: 1613228859
-    default.custom: 0
+    bopomofo.schema: 1628647652
+    default: 1628647658
+    default.custom: 1574989441
     grammar: 1613228859
     grammar.custom: 0
-    key_bindings: 1613228859
+    key_bindings: 1628647658
     key_bindings.custom: 0
-    punctuation: 1613228859
+    punctuation: 1628647658
     punctuation.custom: 0
-    zhuyin: 1613228858
+    zhuyin: 1628647652
     zhuyin.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -52,6 +52,13 @@ grammar:
   language: "zh-hant-t-essay-bgw"
 key_binder:
   bindings:
+    - {accept: space, send: Escape, when: composing}
+    - {accept: space, send: space, when: has_menu}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: "Control+period", toggle: simplification, when: always}
+    - {accept: "Control+apostrophe", toggle: liu_w2c, when: always}
+    - {accept: "Control+slash", toggle: extended_charset, when: always}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+p", send: Up, when: composing}
     - {accept: "Control+n", send: Down, when: composing}
     - {accept: "Control+b", send: Left, when: composing}
@@ -63,26 +70,11 @@ key_binder:
     - {accept: "Control+h", send: BackSpace, when: composing}
     - {accept: "Control+g", send: Escape, when: composing}
     - {accept: "Control+bracketleft", send: Escape, when: composing}
-    - {accept: "Control+y", send: Page_Up, when: composing}
     - {accept: "Alt+v", send: Page_Up, when: composing}
     - {accept: "Control+v", send: Page_Down, when: composing}
     - {accept: ISO_Left_Tab, send: "Shift+Left", when: composing}
     - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
     - {accept: Tab, send: "Shift+Right", when: composing}
-    - {accept: minus, send: Page_Up, when: has_menu}
-    - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
-    - {accept: "Control+Shift+1", select: .next, when: always}
-    - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}
-    - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-    - {accept: "Control+Shift+exclam", select: .next, when: always}
-    - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
-    - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
-    - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
     - {accept: comma, send: comma, when: has_menu}
     - {accept: period, send: period, when: has_menu}
     - {accept: minus, send: minus, when: has_menu}
@@ -91,7 +83,7 @@ key_binder:
   import_preset: default
 menu:
   alternative_select_keys: ABCDEFGHIJ
-  page_size: 5
+  page_size: 7
 punctuator:
   full_shape:
     " ": {commit: "　"}
