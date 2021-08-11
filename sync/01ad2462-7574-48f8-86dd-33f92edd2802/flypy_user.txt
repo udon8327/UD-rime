@@ -430,13 +430,8 @@
 
 
 # 常用短句
-匯出	hviu
-推播	tvbo
-梗圖	ggtu
-連結	lmjp
-櫃點	gvdm
-喫	ii
-
+台	td
+台灣	tw
 
 # 自定義短句
 アマゾン	amaz

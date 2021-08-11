@@ -1,0 +1,4 @@
+patch:
+  translator/enable_completion: false  #打開逐碼提示碼
+  fixed/enable_completion: false  #打開逐碼提示碼
+  "switches/@2/reset": 0  #反查開關 (0為關閉，1為開啟)
