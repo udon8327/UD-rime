@@ -2,10 +2,49 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     squirrel: 1628167374
-    squirrel.custom: 1574989441
+    squirrel.custom: 1628648276
 app_options:
+  co.zeit.hyper:
+    ascii_mode: true
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Spotlight:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+    no_inline: true
+  com.apple.dt.Xcode:
+    ascii_mode: true
+  com.barebones.textwrangler:
+    ascii_mode: true
+  com.blacktree.Quicksilver:
+    ascii_mode: true
+  com.github.atom:
+    ascii_mode: true
+  com.google.Chrome:
+    inline: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+    no_inline: true
+  com.macromates.TextMate.preview:
+    ascii_mode: true
   com.microsoft.VSCode:
-    ascii_mode: false
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
+  com.sublimetext.2:
+    ascii_mode: true
+  org.gnu.Aquamacs:
+    ascii_mode: true
+  org.gnu.Emacs:
+    ascii_mode: true
+    no_inline: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+    vim_mode: true
+  ru.keepcoder.Telegram:
+    inline: true
 chord_duration: 0.1
 config_version: 0.37
 preset_color_schemes:
@@ -17,8 +56,14 @@ preset_color_schemes:
     candidate_format: "%c %@ "
     comment_text_color: 0x999999
     corner_radius: 5
+    font_face: "PingFangSC-Regular,HanaMinB"
+    font_point: 16
     hilited_candidate_back_color: 0xFFF0E4
     hilited_candidate_text_color: 0xEE6E00
+    horizontal: true
+    inline_preedit: true
+    label_font_face: "STHeitiSC-Light"
+    label_font_point: 12
     name: "冷漠／Apathy"
     text_color: 0x424242
   aqua:
@@ -95,7 +140,7 @@ preset_color_schemes:
     label_font_face: SimHei
     label_font_point: 10
     name: "浮尘／Dust"
-    text_color: 0x9e9e9e
+    text_color: 0x424242
   google:
     author: "skoj <skoj@qq.com>"
     back_color: 0xFFFFFF
@@ -141,47 +186,6 @@ preset_color_schemes:
     hilited_text_color: 0x7fffff
     name: "明月／Luna"
     text_color: 0xa5a5a5
-  mac_white:
-    author: Yang
-    back_color: 0xffffff
-    candidate_format: " %c %@ "
-    comment_text_color: 0x96a8a7
-    hilited_candidate_back_color: 0xFFE4CE
-    hilited_candidate_label_color: 0x96a8a7
-    hilited_candidate_text_color: 0x000000
-    hilited_comment_text_color: 0x96a8a7
-    hilited_text_color: 0x96a8a7
-    label_color: 0x96a8a7
-    name: "蘋果白／Mac White"
-    text_color: 0x000000
-  mac_white2:
-    author: Yang
-    back_color: 0xffffff
-    candidate_format: " %c %@ "
-    comment_text_color: 0x96a8a7
-    hilited_candidate_back_color: 0xff9d2e
-    hilited_candidate_label_color: 0xD5D6BF
-    hilited_candidate_text_color: 0xffffff
-    hilited_comment_text_color: 0xD5D6BF
-    hilited_text_color: 0x828282
-    label_color: 0x96a8a7
-    name: "蘋果白2／Mac White2"
-    text_color: 0x000000
-  metroblue:
-    author: "Prcuvu <prcuvu@gmail.com>"
-    back_color: 0xffffff
-    border_color: 0xd77800
-    candidate_text_color: 0x000000
-    comment_text_color: 0x000000
-    hilited_back_color: 0xffffff
-    hilited_candidate_back_color: 0xd77800
-    hilited_candidate_text_color: 0xffffff
-    hilited_comment_text_color: 0xffffff
-    hilited_label_color: 0xffffff
-    hilited_text_color: 0x000000
-    label_color: 0x838383
-    name: "现代蓝／Metro Blue"
-    text_color: 0x000000
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
@@ -302,35 +306,19 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
-  system_blue:
-    author: "scomper <scomper@gmail.com>"
-    back_color: 0xFFFFFF
-    border_color: 0xE0B693
-    candidate_text_color: 0x000000
-    comment_text_color: 0x999999
-    hilited_back_color: 0xfff0e3
-    hilited_candidate_label_color: 0x999999
-    hilited_candidate_text_color: 0x000000
-    hilited_comment_text_color: 0x999999
-    hilited_text_color: 0x999999
-    label_color: 0x999999
-    name: "系统蓝／System Blue"
-    text_color: 0x424242
 show_notifications_when: appropriate
 style:
   border_height: 0
   border_width: 0
-  candidate_format: "%c. %@"
-  color_scheme: mac_white2
+  color_scheme: mojave_dark
   comment_font_point: 18
-  corner_radius: 4
-  font_face: "Operator Mono Bold, HanziPen TC Bold, HanziPen SC Bold, PingFangTC-Light, Times-Roman, AppleColorEmoji"
-  font_point: 20
+  corner_radius: 10
+  font_face: "Lucida Grande"
+  font_point: 21
   hilited_corner_radius: 0
   inline_preedit: true
-  label_font_face: "Andale Mono"
-  label_font_point: 14
-  line_spacing: 4
-  spacing: 4
+  label_font_point: 18
+  line_spacing: 12
+  spacing: 10
   text_orientation: horizontal
 us_keyboard_layout: false

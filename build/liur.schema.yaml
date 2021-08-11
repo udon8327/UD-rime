@@ -2,10 +2,10 @@ __build_info:
   rime_version: 1.7.3
   timestamps:
     default: 1628647658
-    default.custom: 1574989441
+    default.custom: 1628648419
     key_bindings: 1628647658
     key_bindings.custom: 0
-    liur.custom: 1574989441
+    liur.custom: 1628649385
     liur.schema: 1574989441
     punctuation: 1628647658
     punctuation.custom: 0
@@ -112,7 +112,7 @@ liurqry:
   tips: "【反查讀音】"
 menu:
   alternative_select_keys: 0123456789
-  page_size: 7
+  page_size: 9
 mkst:
   comment_format:
     - "xform/^~(.+)$/>[$1]"
@@ -238,7 +238,7 @@ translator:
   disable_user_dict_for_patterns:
     - "^[',.].*$"
   enable_charset_filter: true
-  enable_completion: true
+  enable_completion: false
   enable_encoder: false
   enable_sentence: false
   enable_user_dict: false

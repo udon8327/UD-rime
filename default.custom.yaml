@@ -7,26 +7,27 @@ customization:
 patch:
   menu:
     alternative_select_keys: "0123456789"	#重碼選擇鍵，如沒有寫-預設 ctrl+123456789
-    page_size: 7	#選單 每頁 顯示 個數
+    page_size: 9	#選單 每頁 顯示 個數
   ascii_composer:
     good_old_caps_lock: true
     switch_key: {Caps_Lock: clear, Control_L: noop, Control_R: noop, Eisu_toggle: clear, Shift_L: commit_code, Shift_R: commit_code}
   schema_list:
     - {schema: liur}
-    - schema: luna_pinyin
-    - schema: luna_pinyin_simp
-    - schema: luna_pinyin_fluency
-    - schema: bopomofo
-    - schema: bopomofo_tw
-    - schema: cangjie5
-    - schema: stroke
-    - schema: terra_pinyin
+    - schema: flypy
+    # - schema: luna_pinyin
+    # - schema: luna_pinyin_simp
+    # - schema: luna_pinyin_fluency
+    # - schema: bopomofo
+    # - schema: bopomofo_tw
+    # - schema: cangjie5
+    # - schema: stroke
+    # - schema: terra_pinyin
     # - {schema: liur_Trad}
   switcher:
     abbreviate_options: false
     caption: "〔方案選單〕"
     fold_options: false
-    hotkeys: ["Control+grave", "Control+Shift+grave"]
+    hotkeys: ["Control+Shift+grave"]
   key_binder:
     bindings:
     # ↓ 以下2條爲空碼時按空格鍵清空輸入碼（首先需要關閉碼表輸入法連打，
