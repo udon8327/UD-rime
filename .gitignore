@@ -1,1 +1,5 @@
+.DS_Store
+.vscode
 user.yaml
+luna_pinyin.userdb
+terra_pinyin.userdb
