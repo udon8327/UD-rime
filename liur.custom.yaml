@@ -1,4 +1,7 @@
 patch:
-  translator/enable_completion: false  #打開逐碼提示碼
-  fixed/enable_completion: false  #打開逐碼提示碼
+  translator/enable_completion: false  #關閉逐碼提示碼
+  fixed/enable_completion: false  #關閉逐碼提示碼
+  fixed/enable_user_dict: false  #關閉用戶詞典和字頻調整
   "switches/@2/reset": 0  #反查開關 (0為關閉，1為開啟)
+  recognizer/patterns/pinyin: "" #關閉漢語拼音輸入引導鍵
+  recognizer/patterns/mkst: "" #關閉造詞引導鍵
