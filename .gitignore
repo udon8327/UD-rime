@@ -1,7 +1,7 @@
 .DS_Store
-.vscode
 user.yaml
-luna_pinyin.userdb
-terra_pinyin.userdb
+/.vscode
+/luna_pinyin.userdb
+/terra_pinyin.userdb
+/build
 liur.txt
-build
